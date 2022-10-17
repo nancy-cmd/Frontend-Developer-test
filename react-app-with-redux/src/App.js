@@ -9,7 +9,6 @@ function App() {
     const url = `https://api.artic.edu/api/v1/artworks?fields=id,title,artist_display,date_display,main_reference_number`;
     const results = await fetch(url).then(res => res.json());
 
-  
   }
   return (
     <div className="App">
