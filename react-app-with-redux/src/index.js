@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {configureStore} from 'redux'
+//import {configureStore} from 'redux'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -26,7 +26,7 @@ const searchFind = (state = 0, action ) => {
 
 };
 
-let store = configureStore(search);
+//let store = configureStore(search);
 
 
 //dispatch- how we finaly execute everthing
